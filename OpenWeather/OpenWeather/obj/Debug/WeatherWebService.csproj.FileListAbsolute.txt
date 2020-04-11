@@ -1,0 +1,9 @@
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\bin\Debug\OpenWeather.exe.config
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\bin\Debug\OpenWeather.exe
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\bin\Debug\OpenWeather.pdb
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\bin\Debug\Newtonsoft.Json.dll
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\WeatherWebService.csprojResolveAssemblyReference.cache
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\WeatherWebService.csproj.CoreCompileInputs.cache
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\OpenWeather.exe
+C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\OpenWeather.pdb
