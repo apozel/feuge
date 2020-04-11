@@ -31,8 +31,9 @@ namespace JsonExample
             string timeZoneJson = @"{ 'sunrise':'2018-04-04 06:55','sunset':'2018-04-04 19:52','countryName':'Austria','gmtOffset':1,'timezoneId':'Europe/Vienna'}";
 
             JObject jsot = JObject.Parse(timeZoneJson);
-            Console.WriteLine("select token sunrise" + jsot.SelectToken("sunrise"));
-            Console.WriteLine("select token timezoneid" + jsot.SelectToken("timezoneId"));
+            Console.WriteLine("select token sunrise : " + jsot.SelectToken("sunrise"));
+            Console.WriteLine("select token timezoneid : " + jsot.SelectToken("timezoneId"));
+            Console.WriteLine("select token contryName : " + jsot.SelectToken("countryName"));
 
 
             // a more complicated example taken from another request

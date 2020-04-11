@@ -7,3 +7,13 @@ C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExamp
 C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.csproj.CoreCompileInputs.cache
 C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.exe
 C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.pdb
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\bin\Debug\JsonExample.exe.config
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\bin\Debug\JsonExample.exe
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\bin\Debug\JsonExample.pdb
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\obj\Debug\JsonExample.csprojAssemblyReference.cache
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\obj\Debug\JsonExample.csproj.CoreCompileInputs.cache
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\obj\Debug\JsonExample.csproj.CopyComplete
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\obj\Debug\JsonExample.exe
+C:\Users\tomch\Downloads\wetransfer-316831\JsonExample\JsonExample\obj\Debug\JsonExample.pdb
