@@ -7,3 +7,13 @@ C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\WeatherWe
 C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\WeatherWebService.csproj.CoreCompileInputs.cache
 C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\OpenWeather.exe
 C:\Users\helen\Documents\BAT4\reseau\OpenWeather\OpenWeather\obj\Debug\OpenWeather.pdb
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\bin\Debug\OpenWeather.exe.config
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\bin\Debug\OpenWeather.exe
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\bin\Debug\OpenWeather.pdb
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\obj\Debug\WeatherWebService.csprojAssemblyReference.cache
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\obj\Debug\WeatherWebService.csproj.CoreCompileInputs.cache
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\obj\Debug\WeatherWebService.csproj.CopyComplete
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\obj\Debug\OpenWeather.exe
+C:\Users\tomch\Downloads\wetransfer-316831\OpenWeather\OpenWeather\obj\Debug\OpenWeather.pdb
