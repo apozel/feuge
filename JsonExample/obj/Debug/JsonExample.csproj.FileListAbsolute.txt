@@ -1,0 +1,9 @@
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\bin\Debug\JsonExample.exe.config
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\bin\Debug\JsonExample.exe
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\bin\Debug\JsonExample.pdb
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\bin\Debug\Newtonsoft.Json.dll
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\bin\Debug\Newtonsoft.Json.xml
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.csprojResolveAssemblyReference.cache
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.csproj.CoreCompileInputs.cache
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.exe
+C:\Users\helen\Documents\BAT4\reseau\JsonExample\JsonExample\obj\Debug\JsonExample.pdb
