@@ -2,8 +2,11 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace JsonExample
@@ -29,7 +32,7 @@ namespace JsonExample
             // this is an example of json data from a geography web service
             // @ is to convert string to utf-8 format
             string timeZoneJson = @"{ 'sunrise':'2018-04-04 06:55','sunset':'2018-04-04 19:52','countryName':'Austria','gmtOffset':1,'timezoneId':'Europe/Vienna'}";
-
+           
             JObject jsot = JObject.Parse(timeZoneJson);
             Console.WriteLine("select token sunrise : " + jsot.SelectToken("sunrise"));
             Console.WriteLine("select token timezoneid : " + jsot.SelectToken("timezoneId"));
@@ -55,7 +58,7 @@ namespace JsonExample
             /////////////////////////////////////
             // this converts a json object into a WeatherInfo object
             WeatherInfo i = JsonConvert.DeserializeObject<WeatherInfo>(timeZoneJson);
-            Console.WriteLine("sunrise using my own object " + (i.Sunrise));
+            Console.WriteLine("sunrise using my own object " + (i.sunrise));
             Console.WriteLine("day duration " + i.DayDuration() + " hours");
             i.PrintJetLag();
 
@@ -63,9 +66,39 @@ namespace JsonExample
 
             
             WeatherInfo testDayDuration = JsonConvert.DeserializeObject<WeatherInfo>(testDayDurationJson);
-            Console.WriteLine("sunrise using my own object " + (testDayDuration.Sunrise));
+            Console.WriteLine("write to string of the object : ");
+            Console.WriteLine(testDayDurationJson.ToString());
+            Console.WriteLine("sunrise using my own object " + (testDayDuration.sunrise));
             Console.WriteLine("day duration " + testDayDuration.DayDuration() + " hours");
             testDayDuration.PrintJetLag();
+
+            Console.WriteLine("please enter latitude : ");
+            double latitude = int.Parse( Console.ReadLine());
+            latitude = latitude == 0 ? 44.08 : latitude;
+
+
+            Console.WriteLine("please enter longitude : ");
+            double longitude = int.Parse(Console.ReadLine());
+            longitude = longitude == 0 ? 4.83 : longitude;
+
+            string urlGeonames = "http://api.geonames.org/timezoneJSON?&lat=" + latitude.ToString(CultureInfo.InvariantCulture) + "&lng=" + longitude.ToString(CultureInfo.InvariantCulture) + "&username=heleneCollavizza";
+
+            WebClient client = new WebClient();
+            // download the data
+            string data = client.DownloadString(urlGeonames);
+            Console.WriteLine("connecting openweathermap.org");
+            // wait a bit for the server to have the time to send its answer
+            Thread.Sleep(300);
+            Console.WriteLine(data);
+            // show information of the data (json) that have been sent
+         
+            WeatherInfo jsonData = JsonConvert.DeserializeObject<WeatherInfo>(data);
+            Console.WriteLine("write to string of the object : ");
+            Console.WriteLine(jsonData.ToString());
+            Console.WriteLine("sunrise using my own object " + (jsonData.sunrise));
+            Console.WriteLine("day duration " + jsonData.DayDuration() + " hours");
+            jsonData.PrintJetLag();
+
 
             Console.WriteLine("press enter to exit");
             Console.ReadLine();
