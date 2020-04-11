@@ -55,6 +55,7 @@ namespace WeatherWebService
 
             bool townExistance = false;
             string dataFromUserTown = null;
+            //ask user until he give a valid town
             while (!townExistance)
             {
                 //ask user the town 
@@ -64,6 +65,7 @@ namespace WeatherWebService
                 string urlTownOpenWeather = "http://api.openweathermap.org/data/2.5/weather?q=" + userTown + ",fr&appid=" + key1;
                 
                 try { 
+                    // if an exception is raise the program will ask for a town again
                     dataFromUserTown = client.DownloadString(urlTownOpenWeather);
                     Thread.Sleep(300);
                     townExistance = true;
