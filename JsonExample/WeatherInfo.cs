@@ -24,10 +24,16 @@ namespace JsonExample
             return ts.TotalHours;
         }
 
+        public int GetJetlagWithParis()
+        { int ParisGmtOffset = 2;
+            return GmtOffset - ParisGmtOffset;
+        }
+
         public void PrintJetLag()
         {
-            // to be completed
-	    // must print the jet lag between Paris and CountryName
+
+            // must print the jet lag between Paris and CountryName
+            Console.WriteLine("coming from " + this.CountryName + ", the jetlag is " + this.GetJetlagWithParis() + " hours");
         }
     }
 }
