@@ -59,6 +59,14 @@ namespace JsonExample
             Console.WriteLine("day duration " + i.DayDuration() + " hours");
             i.PrintJetLag();
 
+            string testDayDurationJson = @"{ 'sunrise':'2018-04-04 06:55','sunset':'2018-04-04 21:52','countryName':'Austria','gmtOffset':1,'timezoneId':'Europe/Vienna'}";
+
+            
+            WeatherInfo testDayDuration = JsonConvert.DeserializeObject<WeatherInfo>(testDayDurationJson);
+            Console.WriteLine("sunrise using my own object " + (testDayDuration.Sunrise));
+            Console.WriteLine("day duration " + testDayDuration.DayDuration() + " hours");
+            testDayDuration.PrintJetLag();
+
             Console.WriteLine("press enter to exit");
             Console.ReadLine();
         }
