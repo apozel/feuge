@@ -41,7 +41,6 @@ namespace JsonExample
 
         public void PrintJetLag()
         {
-
             // must print the jet lag between Paris and CountryName
             Console.WriteLine("coming from " + this.CountryName + ", the jetlag is " + this.GetJetlagWithParis() + " hours");
         }

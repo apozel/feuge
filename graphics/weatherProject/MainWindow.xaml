@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:weatherProject"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Weather" Height="450" Width="800">
+    
+        <Grid x:Name="bigGrid">
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Label x:Name="longitudeLabel">longitude :</Label>
+        <TextBox x:Name="longitudeTextBox" Grid.Column="1" Margin="0,0,0,10" />
+        <Label x:Name="latitudeLabel" Grid.Row="1">latitude :</Label>
+        <TextBox x:Name="latitudeTextBox" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" />
+        <Label x:Name="villeLabel" Grid.Row="2">ville :</Label>
+        <TextBox x:Name="villeTextbox" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" />
+        <Button x:Name="startButton" Grid.Row="3" Grid.Column="2" Click="StartButton_Click">lancer recherche</Button>
+        <Label Grid.Row="4">result:</Label>
+        <Grid Grid.Row="4" Grid.Column="1"  >
+            <TextBlock x:Name="infoTextBox" />
+        </Grid>
     </Grid>
+
+    
 </Window>

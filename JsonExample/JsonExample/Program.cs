@@ -36,6 +36,8 @@ namespace JsonExample
             JObject jsot = JObject.Parse(timeZoneJson);
             Console.WriteLine("select token sunrise : " + jsot.SelectToken("sunrise"));
             Console.WriteLine("select token timezoneid : " + jsot.SelectToken("timezoneId"));
+
+            // read contryName of json Object :
             Console.WriteLine("select token contryName : " + jsot.SelectToken("countryName"));
 
 
@@ -72,13 +74,15 @@ namespace JsonExample
             Console.WriteLine("day duration " + testDayDuration.DayDuration() + " hours");
             testDayDuration.PrintJetLag();
 
+            // part 2.8 :
+
             Console.WriteLine("please enter latitude : ");
-            double latitude = int.Parse( Console.ReadLine());
+            double latitude = double.Parse( Console.ReadLine());
             latitude = latitude == 0 ? 44.08 : latitude;
 
 
             Console.WriteLine("please enter longitude : ");
-            double longitude = int.Parse(Console.ReadLine());
+            double longitude = double.Parse(Console.ReadLine());
             longitude = longitude == 0 ? 4.83 : longitude;
 
             string urlGeonames = "http://api.geonames.org/timezoneJSON?&lat=" + latitude.ToString(CultureInfo.InvariantCulture) + "&lng=" + longitude.ToString(CultureInfo.InvariantCulture) + "&username=heleneCollavizza";
