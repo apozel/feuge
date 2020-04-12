@@ -32,6 +32,7 @@ namespace weather
         private void changementInfo()
         {
             resultTextBox.Text = info.ToString();
+            sunsetTextBox.Text = info.Sunset.ToString();
         }
 
 

@@ -37,6 +37,9 @@
             this.startButton = new System.Windows.Forms.Button();
             this.resultTextBox = new System.Windows.Forms.TextBox();
             this.resultLabel = new System.Windows.Forms.Label();
+            this.sunsetLabel = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.sunsetTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // latitudeLabel
@@ -113,11 +116,37 @@
             this.resultLabel.TabIndex = 8;
             this.resultLabel.Text = "result :";
             // 
+            // sunsetLabel
+            // 
+            this.sunsetLabel.AutoSize = true;
+            this.sunsetLabel.Location = new System.Drawing.Point(114, 324);
+            this.sunsetLabel.Name = "sunsetLabel";
+            this.sunsetLabel.Size = new System.Drawing.Size(47, 13);
+            this.sunsetLabel.TabIndex = 9;
+            this.sunsetLabel.Text = "sunset : ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(0, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 10;
+            // 
+            // sunsetTextBox
+            // 
+            this.sunsetTextBox.Location = new System.Drawing.Point(212, 324);
+            this.sunsetTextBox.Name = "sunsetTextBox";
+            this.sunsetTextBox.Size = new System.Drawing.Size(100, 20);
+            this.sunsetTextBox.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.sunsetTextBox);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.sunsetLabel);
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.resultTextBox);
             this.Controls.Add(this.startButton);
@@ -145,6 +174,9 @@
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.TextBox resultTextBox;
         private System.Windows.Forms.Label resultLabel;
+        private System.Windows.Forms.Label sunsetLabel;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox sunsetTextBox;
     }
 }
 

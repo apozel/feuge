@@ -11,3 +11,16 @@ C:\Users\tomch\source\repos\weather\obj\Debug\weather.csproj.CoreCompileInputs.c
 C:\Users\tomch\source\repos\weather\obj\Debug\weather.csproj.CopyComplete
 C:\Users\tomch\source\repos\weather\obj\Debug\weather.exe
 C:\Users\tomch\source\repos\weather\obj\Debug\weather.pdb
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\bin\Debug\weather.exe.config
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\bin\Debug\weather.exe
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\bin\Debug\weather.pdb
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.csprojAssemblyReference.cache
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.Form1.resources
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.Properties.Resources.resources
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.csproj.GenerateResource.cache
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.csproj.CoreCompileInputs.cache
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.csproj.CopyComplete
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.exe
+C:\Users\tomch\Downloads\wetransfer-316831\graphics\weather\obj\Debug\weather.pdb
